@@ -1,0 +1,162 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Monoton|Quantico:700');
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #2F2320;
+  color:white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+#gameButtonArea{
+  padding-top:25px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+  
+}
+
+.hidden{
+  display:none;
+}
+
+#button1{
+  background: linear-gradient(90deg,#03fc52,#03fcba);
+  transition: 0.2s;
+}
+#button1:hover{
+  transform: scale(1.1);
+}
+
+
+#button2{
+   background: linear-gradient(90deg,#03a1fc,#036ffc);
+  transition: 0.2s;
+}
+#button2:hover{
+  transform: scale(1.1);
+}
+
+
+#button3{
+    background: linear-gradient(90deg,#fc03d7,pink);
+    transition: 0.2s;
+}
+#button3:hover{
+  transform: scale(1.1);
+}
+
+
+#button4{
+  background: linear-gradient(90deg,#fcc603,yellow);
+   transition: 0.2s;
+}
+#button4:hover{
+  transform: scale(1.1);
+}
+
+#button5{
+  background: linear-gradient(90deg,#741281, #D458E5);
+  transition: 0.2s;
+}
+#button5:hover{
+  transform: scale(1.1);
+}
+
+
+#button6{
+  background: linear-gradient(90deg,#D87313,#E11E21);
+  transition: 0.2s;
+}
+#button6:hover{
+  transform: scale(1.1);
+}
+
+
+#button1:active, #button1.lit{
+  background:#0CB344;
+}
+
+#button2:active, #button2.lit{
+  background:#1363B2;
+}
+
+#button3:active, #button3.lit{
+  background:#9B158E;
+}
+
+#button4:active, #button4.lit{
+  background:#CF860E;
+}
+#button5:active, #button5.lit{
+  background:purple;
+}
+#button6:active, #button6.lit{
+  background:#E63535;
+}
+
+.neon {
+    color: #D0F8FF;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+}
+
+#startBtn{
+  position: relative; 
+  top: -5px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  overflow: hidden;
+  transition: 0.2s;
+  
+}
+#startBtn:hover{
+  color:#255784;
+  background:#2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  
+}
+
+#stopBtn{
+  position: relative;
+  top: -5px;
+  padding: 10px 25px;
+  margin-bottom:25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+#stopBtn:hover{
+  color:#255784;
+  background:#E84054;
+  box-shadow: 0 0 10px #E84054, 0 0 40px #E84054, 0 0 80px #E84054;
+  
+}
+.glow {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+#Trials{
+  font-family:Audiowide;
+  text-shadow: 2px 2px 5px red;
+  font-size:20px;
+}
+
+
+
