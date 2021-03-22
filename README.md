@@ -39,7 +39,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-https://cdn.glitch.com/25130c66-ba37-4d08-87b8-572ac3d3f034%2FLightSoundGame.gif?v=1616294676664
+GIF: https://cdn.glitch.com/25130c66-ba37-4d08-87b8-572ac3d3f034%2FLightSoundGame.gif?v=1616294676664
+
+
+Full Video: https://cdn.glitch.com/25130c66-ba37-4d08-87b8-572ac3d3f034%2FScreen%20Recording%202021-03-20%20at%2010.32.40%20PM.mp4?v=1616438154985
 
 
 ## Reflection Questions
